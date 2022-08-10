@@ -39,4 +39,23 @@ console.log(ageAhmed * 2, ageAtyaf / 10, 9 ** 3);
 // ** is the power of operator 
 const firstName = "Ahmed";
 const lastName = "Hussein";
-console.log(firstName + " " + lastName); 
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5;
+x += 10;
+// x = x + 10; 
+console.log(x);
+x++;
+console.log(x);
+x--;
+console.log(x);
+
+console.log(ageAhmed > ageAtyaf);
+console.log(ageAhmed === ageAhmed);
+
+let z, y;
+z = y = 25 - 10 - 5;
+console.log(z > y);
+let avarage = (ageAhmed + ageAtyaf) / 2;
+console.log(avarage);
+
