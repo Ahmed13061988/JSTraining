@@ -37,3 +37,6 @@ const ageAtyaf = now - 1995;
 console.log(ageAhmed, ageAtyaf);
 console.log(ageAhmed * 2, ageAtyaf / 10, 9 ** 3);
 // ** is the power of operator 
+const firstName = "Ahmed";
+const lastName = "Hussein";
+console.log(firstName + " " + lastName); 
