@@ -71,5 +71,8 @@ console.log(ahmedTemplateLetteral);
 
 console.log(ahmed);
 console.log(`hello, it's me!
- Who are you?`)
+ Who are you?`);
+
+//or we can use 
+console.log(`Hello, it's me \n This will be in the new line`);
 
