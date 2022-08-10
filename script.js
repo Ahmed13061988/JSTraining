@@ -34,4 +34,6 @@
 const now = 2022;
 const ageAhmed = now - 1988;
 const ageAtyaf = now - 1995;
-console.log(ageAhmed, ageAtyaf); 
+console.log(ageAhmed, ageAtyaf);
+console.log(ageAhmed * 2, ageAtyaf / 10, 9 ** 3);
+// ** is the power of operator 
