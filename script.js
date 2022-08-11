@@ -184,17 +184,55 @@
 //     console.log("No one won!");
 // }
 
-const dolphineAvarage = (97 + 112 + 101) / 3;
-const koalasAvarage = (109 + 95 + 106) / 3;
+// const dolphineAvarage = (97 + 112 + 101) / 3;
+// const koalasAvarage = (109 + 95 + 106) / 3;
 
-if (dolphineAvarage >= 100 && koalasAvarage >= 100) {
-    if (dolphineAvarage > koalasAvarage) {
-        console.log(`Dolphine's team won the competition`)
-    } else if (dolphineAvarage < koalasAvarage) {
-        console.log(`Koalas's team won the competition`)
-    } else if (dolphineAvarage === koalasAvarage) {
-        console.log("It's a draw");
-    }
+// if (dolphineAvarage >= 100 && koalasAvarage >= 100) {
+//     if (dolphineAvarage > koalasAvarage) {
+//         console.log(`Dolphine's team won the competition`)
+//     } else if (dolphineAvarage < koalasAvarage) {
+//         console.log(`Koalas's team won the competition`)
+//     } else if (dolphineAvarage === koalasAvarage) {
+//         console.log("It's a draw");
+//     }
+// } else {
+//     console.log("No one won!");
+// }
+
+const day = 'Thursday';
+// switch (day) {
+//     case 'Monday':// day === Monday 
+//         console.log('Plan course structure');
+//         console.log('Go to coding meet up');
+//         break;
+//     case 'Tuesday':
+//         console.log('Prepare theory videos');
+//         break;
+//     case 'Wednesday':
+//     case 'Thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'Friday':
+//         console.log('Recored some videos');
+//         break;
+//     case 'Saturday':
+//     case 'Sunday':
+//         console.log('Enjoy the break!!');
+//     default:
+//         console.log(`The day is not correct`);
+// }
+
+if (day === 'Monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meet up');
+} else if (day === 'Tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'Wednesday' || day === 'Thursday') {
+    console.log('Write code examples');
+} else if (day === 'Friday') {
+    console.log('Recored some videos');
+} else if (day === 'Saturday' || day === "Sunday") {
+    console.log('Enjoy the break!!');
 } else {
-    console.log("No one won!");
+    console.log('The day is not correct');
 }
