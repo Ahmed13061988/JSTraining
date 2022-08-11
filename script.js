@@ -92,23 +92,42 @@
 
 // 5 falsy values in JS 
 // 0 , " ", undifined, null, NaN 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean(""));
-console.log(Boolean(null));
-console.log(Boolean(NaN));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean(""));
+// console.log(Boolean(null));
+// console.log(Boolean(NaN));
+// console.log(Boolean({}));
 
-const money = 0;
-if (money) {
-    console.log("Don't spend it all ;)!")
-} else {
-    console.log('You should get a job!');
-}
+// const money = 0;
+// if (money) {
+//     console.log("Don't spend it all ;)!")
+// } else {
+//     console.log('You should get a job!');
+// }
 
-let hight; // we will get else, because hight is undefined and it's falsy 
-if (hight) {
-    console.log(`YAY! Hight is defined`);
-} else {
-    console.log(`Hight is undefined`);
-}
+// let hight; // we will get else, because hight is undefined and it's falsy 
+// if (hight) {
+//     console.log(`YAY! Hight is defined`);
+// } else {
+//     console.log(`Hight is undefined`);
+// }
+
+const age = 18;
+if (age === 18) console.log(` You became and adult (strict)`);
+if (age == 18) console.log(` You became and adult (loose)`);
+// '18' === 18 ==> false
+// '18' == 18 ==> true 
+
+const favourite = Number(prompt(`What's your favourite number?`));
+console.log(typeof (favourite));
+// if (favourite === 23) {
+//     console.log(`It's an amazing number!`);
+// } else if (favourite === 7) {
+//     console.log(` 7 also a cool number!`);
+// } else if (favourite === 9) {
+//     console.log(` 9 also a cool number!`);
+// } else {
+//     console.log(` The number is not 7 or 23`);
+// }
+if (favourite !== 23) console.log(`Why not 23?`); 
