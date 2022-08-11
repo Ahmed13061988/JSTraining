@@ -240,18 +240,23 @@ const day = 'Thursday';
 // 1991 // this is an expression as well because it will produce a value
 // true && true || false // this is expression 
 
-const age = 34;
-age >= 18 ? console.log(`I like to drink wine`) : console.log(`I like to dring water`)
+// const age = 34;
+// age >= 18 ? console.log(`I like to drink wine`) : console.log(`I like to dring water`)
 
-const drink = age >= 18 ? `Wine 🍷` : `Water 💧`;
-console.log(typeof drink);
+// const drink = age >= 18 ? `Wine 🍷` : `Water 💧`;
+// console.log(typeof drink);
 
-let drink2;
-if (age >= 18) {
-    drink2 = `Wine`;
-} else {
-    drink2 = `Water`;
-}
-console.log(drink2);
+// let drink2;
+// if (age >= 18) {
+//     drink2 = `Wine`;
+// } else {
+//     drink2 = `Water`;
+// }
+// console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+// console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+
+
+let bill = 40;
+const finalBill = bill >= 50 && bill <= 300 ? `The bill was ${bill}, the tip was ${bill * 0.15}, and the total value is ${bill + (bill * 0.15)}` : `The bill was ${bill}, the tip was ${bill * 0.2}, and the total value is ${bill + (bill * 0.2)}`;
+console.log(finalBill);
