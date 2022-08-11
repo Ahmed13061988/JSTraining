@@ -222,17 +222,36 @@ const day = 'Thursday';
 //         console.log(`The day is not correct`);
 // }
 
-if (day === 'Monday') {
-    console.log('Plan course structure');
-    console.log('Go to coding meet up');
-} else if (day === 'Tuesday') {
-    console.log('Prepare theory videos');
-} else if (day === 'Wednesday' || day === 'Thursday') {
-    console.log('Write code examples');
-} else if (day === 'Friday') {
-    console.log('Recored some videos');
-} else if (day === 'Saturday' || day === "Sunday") {
-    console.log('Enjoy the break!!');
+// if (day === 'Monday') {
+//     console.log('Plan course structure');
+//     console.log('Go to coding meet up');
+// } else if (day === 'Tuesday') {
+//     console.log('Prepare theory videos');
+// } else if (day === 'Wednesday' || day === 'Thursday') {
+//     console.log('Write code examples');
+// } else if (day === 'Friday') {
+//     console.log('Recored some videos');
+// } else if (day === 'Saturday' || day === "Sunday") {
+//     console.log('Enjoy the break!!');
+// } else {
+//     console.log('The day is not correct');
+// }
+// 3 + 4 // this is an expression because it produce a value
+// 1991 // this is an expression as well because it will produce a value
+// true && true || false // this is expression 
+
+const age = 34;
+age >= 18 ? console.log(`I like to drink wine`) : console.log(`I like to dring water`)
+
+const drink = age >= 18 ? `Wine 🍷` : `Water 💧`;
+console.log(typeof drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = `Wine`;
 } else {
-    console.log('The day is not correct');
+    drink2 = `Water`;
 }
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
