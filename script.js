@@ -59,20 +59,33 @@
 // let avarage = (ageAhmed + ageAtyaf) / 2;
 // console.log(avarage);
 
-const firstName = "Ahmed";
-const job = "Web developer";
-const birthYear = 1988;
-let year = 2022;
-const age = year - birthYear;
-const ahmed = "I'm " + firstName + ", a " + age + " years old " + job + "!";
+// const firstName = "Ahmed";
+// const job = "Web developer";
+// const birthYear = 1988;
+// let year = 2022;
+// const age = year - birthYear;
+// const ahmed = "I'm " + firstName + ", a " + age + " years old " + job + "!";
 
-const ahmedTemplateLetteral = `I'm ${firstName}, a ${age} years old ${job}!`
-console.log(ahmedTemplateLetteral);
+// const ahmedTemplateLetteral = `I'm ${firstName}, a ${age} years old ${job}!`
+// console.log(ahmedTemplateLetteral);
 
-console.log(ahmed);
-console.log(`hello, it's me!
- Who are you?`);
+// console.log(ahmed);
+// console.log(`hello, it's me!
+//  Who are you?`);
 
-//or we can use 
-console.log(`Hello, it's me \n This will be in the new line`);
+// //or we can use 
+// console.log(`Hello, it's me \n This will be in the new line`);
 
+//type conversion 
+const inputYear = `1991`;
+console.log(Number(inputYear) + 18);
+console.log(typeof NaN);
+console.log(String(23));
+
+//type coercion 
+console.log(`I'm ` + 23 + " years old");
+console.log('23' - '10' - 3);
+
+let n = '1' + 1; //==> "11"
+n = n - 1;  // ==> '11' - 1; 
+console.log(n); //==> 10; 
