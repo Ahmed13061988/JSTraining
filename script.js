@@ -76,16 +76,39 @@
 // //or we can use 
 // console.log(`Hello, it's me \n This will be in the new line`);
 
-//type conversion 
-const inputYear = `1991`;
-console.log(Number(inputYear) + 18);
-console.log(typeof NaN);
-console.log(String(23));
+// //type conversion 
+// const inputYear = `1991`;
+// console.log(Number(inputYear) + 18);
+// console.log(typeof NaN);
+// console.log(String(23));
 
-//type coercion 
-console.log(`I'm ` + 23 + " years old");
-console.log('23' - '10' - 3);
+// //type coercion 
+// console.log(`I'm ` + 23 + " years old");
+// console.log('23' - '10' - 3);
 
-let n = '1' + 1; //==> "11"
-n = n - 1;  // ==> '11' - 1; 
-console.log(n); //==> 10; 
+// let n = '1' + 1; //==> "11"
+// n = n - 1;  // ==> '11' - 1; 
+// console.log(n); //==> 10; 
+
+// 5 falsy values in JS 
+// 0 , " ", undifined, null, NaN 
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(""));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all ;)!")
+} else {
+    console.log('You should get a job!');
+}
+
+let hight; // we will get else, because hight is undefined and it's falsy 
+if (hight) {
+    console.log(`YAY! Hight is defined`);
+} else {
+    console.log(`Hight is undefined`);
+}
